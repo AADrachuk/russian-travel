@@ -1,0 +1,8 @@
+/* Сброс стилей браузера */ 
+@import url("../vendor/normalize.css");
+
+/* Общие стили страницы */ 
+@import url("../blocks/page/page.css");
+
+/* Стили блока lead */ 
+@import url("../blocks/lead/lead.css");
