@@ -1,0 +1,6 @@
+/* стили контейнера place блока places */ 
+.place {
+  margin: 80px 148px 0px 148px; 
+  display: grid;
+  border: 1px solid red;
+}

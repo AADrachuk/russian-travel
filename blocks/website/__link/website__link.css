@@ -1,0 +1,12 @@
+/* Стили ссылок блока places */
+.website__link {
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: underline;
+  color: #FFFFFF;
+  transition: 0.5s;
+}
+
+.website__link:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,6 @@
+/* Стили блока cover */ 
+.cover__background {
+  max-width: 1184px;
+  max-height: 740px;
+  margin: 24px auto 0;
+}

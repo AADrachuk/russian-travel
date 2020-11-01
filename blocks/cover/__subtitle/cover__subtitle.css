@@ -1,0 +1,12 @@
+/* Стили подзаголовка блока cover */ 
+.cover__subtitle {
+  margin: 0 auto;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  max-width: 360px;
+  text-align: center;
+  color: #FFFFFF;
+  border: 1px solid red; 
+}

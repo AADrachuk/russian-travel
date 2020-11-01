@@ -1,0 +1,11 @@
+/* стили автора сайта */
+.footer__copyright{
+  font-family: Inter;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  font-style: normal;
+  font-weight: normal;
+  text-align: right;
+  color: #FFFFFF;
+  border: 1px solid red;
+}

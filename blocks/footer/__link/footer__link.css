@@ -1,0 +1,16 @@
+/* стили ссылок подвала */ 
+.footer__link {
+  font-family: Inter;
+  font-size: 1rem;
+  line-height: 1.12rem;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  color: #FFFFFF;
+  transition: 0.5s;
+  border: 1px solid red; 
+}
+
+.footer__link:hover {
+  opacity: 0.8;
+}

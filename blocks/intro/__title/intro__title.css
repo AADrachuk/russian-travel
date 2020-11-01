@@ -1,0 +1,13 @@
+/* Стили заголовка блока intro */ 
+.intro__title {
+  margin: 92px 442px 0px 148px;
+  padding: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  max-width: 690px;
+  color: #FFFFFF;
+  border: 1px solid red;
+}

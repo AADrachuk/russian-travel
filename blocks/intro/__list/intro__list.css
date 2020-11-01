@@ -1,0 +1,14 @@
+/* Стили списка блока intro */ 
+.intro__list {
+    list-style: none;
+    margin: 33px 442px 0px 148px;
+    padding: 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    max-width: 690px;
+    color: #FFFFFF;
+    border: 1px solid red;
+  }

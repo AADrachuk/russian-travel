@@ -1,0 +1,11 @@
+/* Стили блока cover */ 
+.cover__overlay {
+  margin: 92px auto 0;
+  background: #2A2C2F;
+  opacity: 0.8;
+  transition: 0.5s;
+}
+
+.cover__overlay:hover {
+  opacity: 0.3;
+}

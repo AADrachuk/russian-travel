@@ -1,0 +1,12 @@
+/* Стили заголовка блока cover */ 
+.cover__title {
+  margin: 0 auto;
+  font-family: Inter;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  text-align: center;
+  max-width: 560px;
+  color: #FFFFFF;
+  border: 1px solid red; 
+}

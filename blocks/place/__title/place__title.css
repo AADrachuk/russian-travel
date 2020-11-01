@@ -1,0 +1,12 @@
+/* Стили заголовков блока places */ 
+.place__title {
+  margin: 0px 0px 48px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  max-width: 460px;
+  font-size: 72px;
+  line-height: 76px;
+  color: #FFFFFF;
+  border: 1px solid red;
+}
