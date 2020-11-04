@@ -1,10 +1,39 @@
 /* Стиль логотипа в шапке */ 
 .header__logo {
-  margin: 28px 0 0 48px;
   background-image: url("../../../images/logo__page_white.svg");
-  height: 52px;
-  min-width: 176px;
+  background-size: contain;
   object-fit: cover;
   background-repeat: no-repeat;
-  border: 1px solid red;
+}
+
+@media screen and (max-width: 767px) {
+  .header__logo {
+    margin: 16px 0 0 16px;
+    height: 42px;
+    min-width: 142px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .header__logo {
+    margin: 28px 0 0 24px;
+    height: 52px;
+    min-width: 176px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .header__logo {
+    margin: 28px 0 0 48px;
+    height: 52px;
+    min-width: 176px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header__logo {
+    margin: 28px 0 0 48px;
+    height: 52px;
+    min-width: 176px;
+  }
 }

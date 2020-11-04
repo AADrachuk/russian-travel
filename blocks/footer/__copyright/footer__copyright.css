@@ -1,12 +1,44 @@
 /* стили автора сайта */
-.footer__copyright{
-  margin: 0 48px 24px 0;
+.footer__copyright {
+  
   font-family: "Inter", Arial, sans-serif;
-  font-size: 0.875rem;
-  line-height: 1rem;
   font-style: normal;
   font-weight: normal;
-  text-align: right;
   color: #FFFFFF;
-  border: 1px solid red;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__copyright {
+    margin: 0 0 24px 16px;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .footer__copyright {
+    margin: 0 24px 24px 0;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .footer__copyright {
+    margin: 0 48px 24px 0;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer__copyright {
+    margin: 0 48px 24px 0;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+  }
 }

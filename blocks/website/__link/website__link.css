@@ -6,7 +6,6 @@
   text-decoration: underline;
   color: #FFFFFF;
   transition: 0.5s;
-  border: 1px solid red;
 }
 
 .website__link:hover {

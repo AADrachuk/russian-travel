@@ -1,5 +1,31 @@
 /* стили контейнера параграфов блока places */ 
 .place__text-container {
-  margin: 48px 0 0 0;
   grid-area: "paragraph";
+}
+
+@media screen and (max-width: 767px) {
+  .place__text-container {
+    margin: 32px 16px 0 16px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .place__text-container {
+    margin: 48px 16px 0 0;
+    max-width: 352px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .place__text-container {
+    margin: 48px 16px 0 0;
+    max-width: 456px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place__text-container {
+    margin: 48px 16px 0 0;
+    max-width: 484px;
+  }
 }
