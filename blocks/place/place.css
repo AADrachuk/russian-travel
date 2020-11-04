@@ -13,7 +13,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .place {
-    margin: 90px 24px 0px; 
+    margin: 90px 24px 0px;
     grid-template-areas:
     "title website"
     "image paragraph"
@@ -23,7 +23,7 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .place {
-    margin: 90px 48px 0px; 
+    margin: 90px 48px 0px;
     grid-template-areas:
     "title website"
     "image paragraph"
@@ -33,7 +33,7 @@
 
 @media screen and (min-width: 1280px) {
   .place {
-    margin: 90px 148px 0px;  
+    margin: 90px 148px 0px;
     grid-template-areas:
     "title website"
     "image paragraph"
