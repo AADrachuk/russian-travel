@@ -1,9 +1,8 @@
-/* Стили  подвала */ 
-.footer {
+/* стиль шапки сайта */ 
+.header {
   background-color: #2A2C2F;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-end;
-  height: 134px;
+  border: 1px solid red;
 }

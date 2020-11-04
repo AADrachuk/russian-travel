@@ -1,0 +1,7 @@
+/* стили блока photo-grid */ 
+.photo-grid {
+  background-color: #2A2C2F;
+  justify-content: center;
+  align-content: center;
+  border: 1px solid red;
+}

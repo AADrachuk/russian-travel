@@ -1,12 +1,15 @@
 /* Стили подзаголовка блока cover */ 
 .cover__subtitle {
-  margin: 0 auto;
-  font-family: Inter;
+  margin: 32px auto 245px;
+  font-family: "Inter", Arial, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: normal;
   max-width: 360px;
   text-align: center;
+  justify-self: center;
+  align-self: center;
   color: #FFFFFF;
   border: 1px solid red; 
+  z-index: 2;
 }

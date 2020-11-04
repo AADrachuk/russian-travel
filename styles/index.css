@@ -1,14 +1,32 @@
 /* Сброс стилей браузера */ 
 @import url("../vendor/normalize.css");
 
+
 /* Подключение шрифтов */
 @import url("../vendor/fonts/fonts.css");
+
 
 /* Общие стили страницы */ 
 @import url("../blocks/page/page.css");
 
+
+/* Стили шапки сайта */ 
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/__logo/header__logo.css");
+@import url("../blocks/header/__container/header__container.css");
+@import url("../blocks/header/__lang-link/header__lang-link.css");
+@import url("../blocks/header/__lang-link/_ru/header__lang-link_ru.css");
+@import url("../blocks/header/__lang-link/_en/header__lang-link_en.css");
+
+
 /* Стили блока lead */ 
 @import url("../blocks/lead/lead.css");
+@import url("../blocks/lead/__title/lead__title.css");
+@import url("../blocks/lead/__subtitle/lead__subtitle.css");
+@import url("../blocks/lead/__route/lead__route.css");
+@import url("../blocks/lead/__image/lead__image.css");
+@import url("../blocks/lead/__caption/lead__caption.css");
+
 
 /* Стили блока intro */ 
 @import url("../blocks/intro/intro.css");
@@ -19,6 +37,9 @@
 
 
 /* Стили блока photo-grid */ 
+@import url("../blocks/photo-grid/photo-grid.css");
+@import url("../blocks/photo-grid/__container/photo-grid__container.css");
+@import url("../blocks/photo-grid/__item/photo-grid__item.css");
 
 
 /*  Стили блока places */
@@ -29,6 +50,7 @@
 @import url("../blocks/website/__url-heading/website__url-heading.css");
 @import url("../blocks/website/__link/website__link.css");
 @import url("../blocks/place/__image/place__image.css");
+@import url("../blocks/place/__text-container/place__text-container.css");
 @import url("../blocks/place/__paragraph/place__paragraph.css");
 
 
@@ -39,7 +61,9 @@
 @import url("../blocks/cover/__background/cover__background.css");
 @import url("../blocks/cover/__overlay/cover__overlay.css");
 
+
 /* Стили подвала */ 
 @import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__links/footer__links.css");
 @import url("../blocks/footer/__link/footer__link.css");
 @import url("../blocks/footer/__copyright/footer__copyright.css");

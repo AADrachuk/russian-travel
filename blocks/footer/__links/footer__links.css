@@ -1,0 +1,6 @@
+/* стили блока ссылок в подвале */ 
+.footer__links {
+  margin: 0 0 24px 48px;
+  display: flex;
+  flex-direction: row;
+}

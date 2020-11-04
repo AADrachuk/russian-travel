@@ -1,6 +1,12 @@
 /* Стили блока cover */ 
 .cover__background {
-  max-width: 1184px;
-  max-height: 740px;
-  margin: 24px auto 0;
+  margin: 92px auto 0;
+  width: calc(100% - 2*48px);
+  background-image: url("../../../images/cover__vaccinium.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+  text-decoration: none;
+  transition: 0.5s;
+  border: 1px solid red;
 }

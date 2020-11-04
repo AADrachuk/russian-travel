@@ -1,0 +1,11 @@
+/* стили картинки блока lead */ 
+.lead__image {
+  background-image: url("../../../images/lead__kalegin.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  width: calc(100% - 2*148px);
+  margin: 64px auto 0;
+  display: flex;
+  border: 1px solid red;
+}

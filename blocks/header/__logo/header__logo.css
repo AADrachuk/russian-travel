@@ -1,0 +1,10 @@
+/* Стиль логотипа в шапке */ 
+.header__logo {
+  margin: 28px 0 0 48px;
+  background-image: url("../../../images/logo__page_white.svg");
+  height: 52px;
+  min-width: 176px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  border: 1px solid red;
+}

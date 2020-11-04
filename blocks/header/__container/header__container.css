@@ -1,0 +1,8 @@
+/* контейнер элементов шапки страницы */ 
+.header__container {
+  margin: 28px 48px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  border: 1px solid red;
+}

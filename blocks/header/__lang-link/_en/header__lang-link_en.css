@@ -1,0 +1,4 @@
+/* модификатор английского ссылки языка страницы */
+.header__lang-link_en:lang(en) {
+  text-decoration: underline;
+}

@@ -1,9 +1,13 @@
 /* Стили контейнера со ссылками блока places */
 .website {
-  margin: 0 0 48px;
-  font-family: "Inter";
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
-  max-width: 456px;
+  max-width: 484px;
+  grid-area: "website";
   border: 1px solid red;
 }

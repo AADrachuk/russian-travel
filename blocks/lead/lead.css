@@ -1,8 +1,7 @@
-/* Стили блока cover */ 
-.cover {
+/* стили блока lead */ 
+.lead {
   display: flex;
   flex-direction: column;
   background-color: #2A2C2F;
-  position: relative;
   border: 1px solid red;
 }

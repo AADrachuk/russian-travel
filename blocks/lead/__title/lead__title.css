@@ -1,0 +1,13 @@
+/* стили заголовка блока lead */ 
+.lead__title {
+  margin: 56px auto 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  max-width: 720px;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  color: #FFFFFF;
+  border: 1px solid red;
+  }

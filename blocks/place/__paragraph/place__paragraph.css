@@ -1,12 +1,13 @@
 /* стили параграфов блока places */ 
 .place__paragraph {
   margin: 0 0 26px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   max-width: 484px;
   font-size: 18px;
   line-height: 29px;
+  grid-area: "paragraph";
   color: #FFFFFF;
   border: 1px solid red;
 }

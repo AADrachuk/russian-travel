@@ -1,6 +1,10 @@
 /* стили контейнера place блока places */ 
 .place {
-  margin: 80px 148px 0px 148px; 
+  margin: 80px auto 0px; 
   display: grid;
+  grid-template-areas:
+  "title website"
+  "image paragraph"
+  "image paragraph";
   border: 1px solid red;
 }

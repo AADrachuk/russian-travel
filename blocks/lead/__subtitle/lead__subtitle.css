@@ -1,0 +1,13 @@
+/*стили подзаголовка блока lead*/
+.lead__subtitle {
+  margin: 32px auto 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  max-width: 640px;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #FFFFFF;
+  border: 1px solid red;
+}
