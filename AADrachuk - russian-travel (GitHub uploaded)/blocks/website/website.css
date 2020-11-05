@@ -1,0 +1,36 @@
+/* Стили контейнера со ссылками блока places */
+.website {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  grid-area: "website";
+}
+
+@media screen and (max-width: 767px) {
+  .website {
+    display: none;
+    max-width: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .website {
+    max-width: 484px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .website {
+    max-width: 484px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .website {
+    max-width: 484px;
+  }
+}

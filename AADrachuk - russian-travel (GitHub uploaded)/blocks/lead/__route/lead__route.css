@@ -1,0 +1,6 @@
+/* стили схемы мартшрута */ 
+.lead__route {
+  margin: 90px auto 260px auto;
+  object-fit: contain;
+  width: 90%;
+}

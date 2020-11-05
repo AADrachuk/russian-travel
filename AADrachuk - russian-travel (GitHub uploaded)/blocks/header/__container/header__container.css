@@ -1,0 +1,30 @@
+/* контейнер элементов шапки страницы */ 
+.header__container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+  .header__container {
+    margin: 30px 16px 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .header__container {
+    margin: 46px 24px 0;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .header__container {
+    margin: 46px 48px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header__container {
+    margin: 46px 48px 0;
+  }
+}

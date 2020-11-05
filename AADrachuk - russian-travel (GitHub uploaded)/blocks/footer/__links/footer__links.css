@@ -1,0 +1,40 @@
+/* стили блока ссылок в подвале */ 
+.footer__links {
+  display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__links  {
+    margin: 64px 0 0 16px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .footer__links  {
+    margin: 88px 0 24px 24px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .footer__links  {
+    margin: 92px 0 24px 48px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer__links  {
+    margin: 92px 0 24px 48px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+}
