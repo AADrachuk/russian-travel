@@ -7,8 +7,8 @@
 
 
 /* Общие стили страницы */
-
 @import url("../blocks/page/page.css");
+
 
 /* Стили шапки сайта */ 
 @import url("../blocks/header/header.css");
@@ -16,8 +16,8 @@
 @import url("../blocks/header/__container/header__container.css");
 @import url("../blocks/header/__lang-link/header__lang-link.css");
 @import url("../blocks/header/__lang-link/_ru/header__lang-link_ru.css");
-
 @import url("../blocks/header/__lang-link/_en/header__lang-link_en.css");
+
 
 /* Стили блока lead */ 
 @import url("../blocks/lead/lead.css");
@@ -25,16 +25,16 @@
 @import url("../blocks/lead/__subtitle/lead__subtitle.css");
 @import url("../blocks/lead/__route/lead__route.css");
 @import url("../blocks/lead/__image/lead__image.css");
-
 @import url("../blocks/lead/__caption/lead__caption.css");
+
 
 /* Стили блока intro */ 
 @import url("../blocks/intro/intro.css");
 @import url("../blocks/intro/__title/intro__title.css");
 @import url("../blocks/intro/__text/intro__text.css");
 @import url("../blocks/intro/__list/intro__list.css");
-
 @import url("../blocks/intro/__list/_bold/intro__list_bold.css");
+
 
 /* Стили блока photo-grid */ 
 @import url("../blocks/photo-grid/photo-grid.css");
@@ -51,16 +51,16 @@
 @import url("../blocks/website/__link/website__link.css");
 @import url("../blocks/place/__image/place__image.css");
 @import url("../blocks/place/__text-container/place__text-container.css");
-
 @import url("../blocks/place/__paragraph/place__paragraph.css");
+
 
 /* Стили блока cover */ 
 @import url("../blocks/cover/cover.css");
 @import url("../blocks/cover/__title/cover__title.css");
 @import url("../blocks/cover/__subtitle/cover__subtitle.css");
 @import url("../blocks/cover/__background/cover__background.css");
-
 @import url("../blocks/cover/__overlay/cover__overlay.css");
+
 
 /* Стили подвала */ 
 @import url("../blocks/footer/footer.css");
