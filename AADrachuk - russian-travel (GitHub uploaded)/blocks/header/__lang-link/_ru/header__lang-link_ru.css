@@ -1,4 +1,0 @@
-/* модификатор русского ссылки языка страницы */
-.header__lang-link_ru:lang(ru) {
-  text-decoration: underline;
-}
