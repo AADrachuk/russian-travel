@@ -1,0 +1,4 @@
+/* Модификатор полужирного шрифта списка блока intro */
+.intro__list-item_bold {
+    font-weight: bold;
+}

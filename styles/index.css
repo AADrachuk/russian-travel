@@ -1,4 +1,4 @@
-/* Сброс стилей браузера */ 
+/* Сброс стилей браузера */
 @import url("../vendor/normalize.css");
 
 
@@ -10,7 +10,7 @@
 @import url("../blocks/page/page.css");
 
 
-/* Стили шапки сайта */ 
+/* Стили шапки сайта */
 @import url("../blocks/header/header.css");
 @import url("../blocks/header/__logo/header__logo.css");
 @import url("../blocks/header/__container/header__container.css");
@@ -19,7 +19,7 @@
 @import url("../blocks/header/__lang-link/_en/header__lang-link_en.css");
 
 
-/* Стили блока lead */ 
+/* Стили блока lead */
 @import url("../blocks/lead/lead.css");
 @import url("../blocks/lead/__title/lead__title.css");
 @import url("../blocks/lead/__subtitle/lead__subtitle.css");
@@ -28,15 +28,16 @@
 @import url("../blocks/lead/__caption/lead__caption.css");
 
 
-/* Стили блока intro */ 
+/* Стили блока intro */
 @import url("../blocks/intro/intro.css");
 @import url("../blocks/intro/__title/intro__title.css");
 @import url("../blocks/intro/__text/intro__text.css");
 @import url("../blocks/intro/__list/intro__list.css");
-@import url("../blocks/intro/__list/_bold/intro__list_bold.css");
+@import url("../blocks/intro/__list-item/intro__list-item.css");
+@import url("../blocks/intro/__list-item/_bold/intro__list-item_bold.css");
 
 
-/* Стили блока photo-grid */ 
+/* Стили блока photo-grid */
 @import url("../blocks/photo-grid/photo-grid.css");
 @import url("../blocks/photo-grid/__container/photo-grid__container.css");
 @import url("../blocks/photo-grid/__item/photo-grid__item.css");
@@ -54,7 +55,7 @@
 @import url("../blocks/place/__paragraph/place__paragraph.css");
 
 
-/* Стили блока cover */ 
+/* Стили блока cover */
 @import url("../blocks/cover/cover.css");
 @import url("../blocks/cover/__title/cover__title.css");
 @import url("../blocks/cover/__subtitle/cover__subtitle.css");
@@ -62,7 +63,7 @@
 @import url("../blocks/cover/__overlay/cover__overlay.css");
 
 
-/* Стили подвала */ 
+/* Стили подвала */
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__links/footer__links.css");
 @import url("../blocks/footer/__link/footer__link.css");
