@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 767px) {
   .lead__caption {
-    margin: 8px 16px 0 16px;
+    margin: -28px 16px 0 16px;
     max-width: 288px;
     font-size: 10px;
     line-height: 14px;
@@ -19,7 +19,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .lead__caption {
-    margin: 8px 24px 0 24px;
+    margin: -28px 24px 0 24px;
     max-width: 690px;
     font-size: 10px;
     line-height: 14px;
@@ -29,7 +29,7 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .lead__caption {
-    margin: 8px 48px 0 48px;
+    margin: -28px 48px 0 48px;
     max-width: 690px;
     font-size: 10px;
     line-height: 14px;
@@ -39,7 +39,7 @@
 
 @media screen and (min-width: 1280px) {
   .lead__caption {
-    margin: 8px 148px 0 148px;
+    margin: -28px 148px 0 148px;
     max-width: 690px;
     font-size: 10px;
     line-height: 14px;

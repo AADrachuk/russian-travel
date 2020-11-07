@@ -1,6 +1,8 @@
 /* стили блока ссылок в подвале */ 
 .footer__links {
   display: flex;
+  list-style: none;
+  padding: 0;
 }
 
 @media screen and (max-width: 767px) {

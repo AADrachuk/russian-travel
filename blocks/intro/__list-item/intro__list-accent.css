@@ -1,0 +1,4 @@
+/* Стиль жирного элемента списка в блоке intro */ 
+.intro__list-accent {
+    font-weight: bold;
+}
