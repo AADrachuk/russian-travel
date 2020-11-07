@@ -1,0 +1,15 @@
+/* стили контейнера блока cover */
+.cover__item {
+  display: flex;
+  position: relative;
+  margin: 92px auto 0;
+  width: calc(100% - 2*48px);
+}
+
+@media screen and (max-width: 767px) {
+  .cover__item{
+    margin: 66px auto 0;
+    width: 100%;
+    min-height: calc(740/1184*100%); 
+  }
+}

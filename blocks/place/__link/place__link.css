@@ -1,5 +1,5 @@
 /* Стили ссылок блока places */
-.website__link {
+.place__link {
   margin: 12px 0 0;
   font-size: 18px;
   line-height: 22px;
@@ -8,6 +8,6 @@
   transition: 0.5s;
 }
 
-.website__link:hover {
+.place__link:hover {
   opacity: 0.8;
 }

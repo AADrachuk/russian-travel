@@ -9,6 +9,7 @@
     line-height: 18px;
     max-width: 690px;
     color: #FFFFFF;
+    margin: 34px 48px 0 148px;
   }
 
 @media screen and (max-width: 767px) {
@@ -26,11 +27,5 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .intro__list {
     margin: 34px 48px 0 48px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .intro__list {
-    margin: 34px 48px 0 148px;
   }
 }

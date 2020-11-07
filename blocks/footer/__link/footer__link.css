@@ -4,9 +4,12 @@
   text-decoration: none;
   font-style: normal;
   font-weight: normal;
-  box-sizing: content-box;
+  box-sizing: border-box;
   color: #FFFFFF;
   transition: 0.5s;
+  margin: 0 18px 0 0;
+  font-size: 16px;
+  line-height: 18px;
 }
 
 .footer__link:hover {
@@ -15,33 +18,8 @@
 
 @media screen and (max-width: 767px) {
   .footer__link {
-    margin: 0 0 32px 0;
+    margin-bottom: 32px;
     font-size: 24px;
     line-height: 24px;
-    border: 1px solid red;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .footer__link {
-    margin: 0 18px 0 0;
-    font-size: 16px;
-    line-height: 18px;
-  }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .footer__link {
-    margin: 0 18px 0 0;
-    font-size: 16px;
-    line-height: 18px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .footer__link {
-    margin: 0 18px 0 0;
-    font-size: 16px;
-    line-height: 18px;
   }
 }

@@ -2,8 +2,11 @@
 .place__title {
   font-family: "Inter", Arial, sans-serif;
   font-weight: 900;
+  margin: 0;
   grid-area: "title";
   color: #FFFFFF;
+  font-size: 72px;
+  line-height: 76px;
 }
 
 @media screen and (max-width: 767px) {
@@ -17,7 +20,6 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .place__title {
-    margin: 0;
     max-width: 340px;
     font-size: 42px;
     line-height: 46px;
@@ -26,18 +28,13 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .place__title {
-    margin: 0;
     max-width: 440px;
-    font-size: 72px;
     line-height: 76px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .place__title {
-    margin: 0;
     max-width: 460px;
-    font-size: 72px;
-    line-height: 76px;
   }
 }

@@ -6,8 +6,9 @@
 @import url("../vendor/fonts/fonts.css");
 
 
-/* Общий фон body */
+/* Общий стили body */
 @import url("../blocks/body/body.css");
+@import url("../blocks/main/main.css");
 
 
 /* Общие стили страницы */
@@ -20,7 +21,6 @@
 @import url("../blocks/header/__container/header__container.css");
 @import url("../blocks/header/__lang-link/header__lang-link.css");
 @import url("../blocks/header/__lang-link/_ru/header__lang-link_ru.css");
-@import url("../blocks/header/__lang-link/_en/header__lang-link_en.css");
 
 
 /* Стили блока lead */
@@ -42,7 +42,6 @@
 
 /* Стили блока photo-grid */
 @import url("../blocks/photo-grid/photo-grid.css");
-@import url("../blocks/photo-grid/__container/photo-grid__container.css");
 @import url("../blocks/photo-grid/__item/photo-grid__item.css");
 
 
@@ -50,9 +49,9 @@
 @import url("../blocks/places/places.css");
 @import url("../blocks/place/place.css");
 @import url("../blocks/place/__title/place__title.css");
-@import url("../blocks/website/website.css");
-@import url("../blocks/website/__url-heading/website__url-heading.css");
-@import url("../blocks/website/__link/website__link.css");
+@import url("../blocks/place/__url-container/place__url-container.css");
+@import url("../blocks/place/__url-heading/place__url-heading.css");
+@import url("../blocks/place/__link/place__link.css");
 @import url("../blocks/place/__image/place__image.css");
 @import url("../blocks/place/__text-container/place__text-container.css");
 @import url("../blocks/place/__paragraph/place__paragraph.css");
@@ -60,10 +59,10 @@
 
 /* Стили блока cover */
 @import url("../blocks/cover/cover.css");
+@import url("../blocks/cover/__item/cover__item.css");
 @import url("../blocks/cover/__title/cover__title.css");
 @import url("../blocks/cover/__subtitle/cover__subtitle.css");
 @import url("../blocks/cover/__background/cover__background.css");
-@import url("../blocks/cover/__overlay/cover__overlay.css");
 
 
 /* Стили подвала */
