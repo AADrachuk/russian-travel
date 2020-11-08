@@ -1,5 +1,6 @@
 /* стили ссылок подвала */ 
 .footer__link {
+  display: flex;
   font-family: "Inter", Arial, sans-serif;
   text-decoration: none;
   font-style: normal;
