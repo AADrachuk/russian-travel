@@ -19,7 +19,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1029px) {
   .photo-grid {
-    max-width: calc(100% - 2*12px);
+    max-width: calc(100% - 2*24px);
     grid-template-columns: repeat(auto-fill, minmax(288px, 1fr));
   }
 }

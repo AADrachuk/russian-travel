@@ -1,7 +1,7 @@
 /* стили изображений блока places */ 
 .place__image {
     object-fit: cover;
-    margin: 48px 40px 0 0;
+    margin: 45px 40px 0 0;
     color: #FFFFFF;
 }
 
@@ -15,7 +15,8 @@
   
   @media screen and (min-width: 768px) and (max-width: 1023px) {
     .place__image {
-      grid-area: "image";
+      margin: 45px 28px 0 0;
+      grid-area: image;
       max-width: 340px;
       max-height: 340px;
     }
@@ -23,7 +24,8 @@
   
   @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .place__image {
-      grid-area: "image";
+      margin: 45px 32px 0 0;
+      grid-area: image;
       max-width: 440px;
       max-height: 440px;
     }
@@ -31,7 +33,7 @@
   
   @media screen and (min-width: 1280px) {
     .place__image {
-      grid-area: "image";
+      grid-area: image;
       max-width: 460px;
       max-height: 460px;
     }
