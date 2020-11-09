@@ -12,18 +12,24 @@
   .place {
     display: flex;
     flex-direction: column;
-    margin: 49px 0px 0px; 
+    margin: 20px 0px 0px; 
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .place {
     margin: 44px 24px 0px;
   }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1279px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .place {
-    margin: 72px 48px 0px;
+    margin: 60px 48px 0px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place{
+    margin-top: 65px;
   }
 }

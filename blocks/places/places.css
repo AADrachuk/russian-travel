@@ -4,3 +4,15 @@
     flex-direction: column;
     margin-top: 48px;
   }
+
+  @media screen and (min-width: 1023px) and (max-width: 1279px) {
+    .places {
+      margin-top: 40px;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .lead__places {
+      margin-top: 70px;
+    }
+  }

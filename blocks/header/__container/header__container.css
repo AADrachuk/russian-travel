@@ -3,14 +3,14 @@
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  margin: 46px 48px 0;
+  margin: 46px 48px 5px;
   padding: 0;
   list-style: none;
 }
 
 @media screen and (max-width: 767px) {
   .header__container {
-    margin: 30px 16px 0;
+    margin: 30px 16px 10px;
   }
 }
 

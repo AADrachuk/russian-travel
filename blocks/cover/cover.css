@@ -13,3 +13,15 @@
     padding: 0;
   }
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .cover {
+    margin: 92px auto 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover {
+    margin-top: 92px;
+  }
+}

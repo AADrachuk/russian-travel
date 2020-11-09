@@ -18,3 +18,9 @@
     line-height: 44px;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .lead__title {
+    margin: 55px auto 0;
+  }
+}
