@@ -1,18 +1,24 @@
-/* Стили блока cover */ 
+/* Стили блока places */ 
 .places {
     display: flex;
     flex-direction: column;
-    margin-top: 48px;
+    margin-top: 97px;
   }
 
-  @media screen and (min-width: 1023px) and (max-width: 1279px) {
+  @media screen and (max-width: 767px)  {
     .places {
-      margin-top: 40px;
+      margin-top: 64px;
     }
-  }
+  }  
   
-  @media screen and (min-width: 1280px) {
-    .lead__places {
-      margin-top: 70px;
-    }
+@media screen and (min-width: 1023px) and (max-width: 1279px) {
+  .places {
+    margin-top: 92px;
   }
+}
+  
+@media screen and (min-width: 1280px) {
+  .lead__places {
+    margin-top: 70px;
+  }
+}

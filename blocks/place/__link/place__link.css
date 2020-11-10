@@ -1,8 +1,8 @@
 /* Стили ссылок блока places */
 .place__link {
-  margin: 12px 0 0;
+  margin: 4px 0 0;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 22px;
   text-decoration: underline;
   color: #FFFFFF;
   transition: 0.5s;
