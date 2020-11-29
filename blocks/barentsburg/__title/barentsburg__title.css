@@ -1,0 +1,12 @@
+/* стили заголовка блока barentsburg */ 
+.barentsburg__title {
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-align: left;
+    color: #FFFFFF;
+    max-width: 583px;
+    margin: 85px 0 0 128px;
+    font-size: 42px;
+    line-height: 61px;
+  }

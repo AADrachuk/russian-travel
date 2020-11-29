@@ -1,0 +1,12 @@
+/* стили заголовка блока video */
+.video__title {
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 800px;
+    margin: 102px auto 0;
+    font-size: 72px;
+    line-height: 79px;
+  }
